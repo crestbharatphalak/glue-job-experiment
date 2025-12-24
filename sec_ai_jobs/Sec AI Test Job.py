@@ -11,5 +11,4 @@ if __name__ == "__main__":
         main()
         print("Ending Glue Code")
     except Exception as e:
-        logger.exception("Glue job failed")
         raise
